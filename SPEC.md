@@ -65,17 +65,20 @@ release does not use it. The README states this limit.
 
 ## Longevity Score
 
-Four parts. Each part returns 0 to 100.
+Three parts. Each part returns 0 to 100.
 
 | Part | Weight | Input |
 | --- | --- | --- |
-| Repair | 55 | iFixit score x 10, or the self-audit score |
-| Support | 20 | Guide count and tool count, log scale |
+| Repair | 65 | iFixit score x 10, or the self-audit score |
+| Support | 25 | Guide count and tool count, log scale |
 | Parts | 10 | A spare-parts link is present |
-| Running | 15 | Yearly energy cost divided by price |
 
 A missing part is removed. The remaining weights are scaled back to 100. The
 score also reports coverage: the share of weights that had data.
+
+Running cost is not part of the score. It appears in the life-cost estimate,
+where the user can set the tariff. The score compares repair, support and
+parts only.
 
 The score is a comparison aid. It is not a prediction of product life. The UI
 and the README state this.
@@ -87,6 +90,9 @@ lifeYears = categoryBaseYears x (0.55 + 0.09 x repairScore10)
 total     = price + repairEvents x repairCost + yearlyEnergyCost x lifeYears
 perYear   = total / lifeYears
 ```
+
+When the catalog has no energy value, the user can supply yearly kWh. When
+neither is present, the energy term is zero and the output says so.
 
 Category base years: phone 5, laptop 7, washer 12. The repair factor spans
 0.55 to 1.45. A product with no score uses the audit score. A product with no

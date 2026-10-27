@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "tariffAud": 0.3,
+  "products": [
+    {
+      "id": "fairphone-5",
+      "brand": "Fairphone",
+      "model": "FP5",
+      "name": "Fairphone 5",
+      "category": "phone",
+      "barcodes": ["8712412001234"],
+      "price": {
+        "amount": 1149,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.fairphone.com/en/",
+        "estimate": true
+      },
+      "repairCost": 220,
+      "repairEvents": 1,
+      "repairNote": "Screen module swap. Part price only.",
+      "partsUrl": "https://shop.fairphone.com/en/spare-parts",
+      "manualUrl": "https://www.ifixit.com/Device/Fairphone_5",
+      "sources": [
+        "https://www.ifixit.com/Device/Fairphone_5",
+        "https://shop.fairphone.com/en/spare-parts"
+      ],
+      "updatedAt": "2026-10-28",
+      "ifixit": {
+        "wikiid": 519718,
+        "title": "Fairphone 5",
+        "url": "https://www.ifixit.com/Device/Fairphone_5",
+        "score": 10,
+        "guideCount": 11,
+        "toolCount": 4,
+        "fetchedAt": "2026-10-28T06:20:00.000Z"
+      }
+    },
+    {
+      "id": "miele-w1-9kg",
+      "brand": "Miele",
+      "model": "W1 9 kg front loader",
+      "name": "Miele W1 9 kg",
+      "category": "washer",
+      "barcodes": [],
+      "price": {
+        "amount": 2499,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.miele.com.au/",
+        "estimate": true
+      },
+      "repairCost": 350,
+      "repairEvents": 2,
+      "energy": {
+        "annualKwh": 190,
+        "sourceUrl": "https://www.miele.com.au/"
+      },
+      "sources": ["https://www.miele.com.au/"],
+      "updatedAt": "2026-10-28",
+      "audit": {
+        "answers": [
+          { "id": "drum-access", "answer": true },
+          { "id": "standard-fasteners", "answer": true },
+          { "id": "bearings-separate", "answer": true },
+          { "id": "board-separate", "answer": true },
+          { "id": "seal-pump-spares", "answer": true },
+          { "id": "error-codes", "answer": false },
+          { "id": "manual-public", "answer": true },
+          { "id": "spares-5y", "answer": true }
+        ],
+        "checkedOn": "2026-10-28",
+        "note": "Desk review of the service manual. Confirm on site."
+      }
+    }
+  ]
+}

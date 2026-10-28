@@ -1,0 +1,596 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-28T19:07:52.907Z",
+  "tariffAud": 0.3,
+  "products": [
+    {
+      "id": "bosch-series-6-9kg",
+      "brand": "Bosch",
+      "model": "Series 6, 9 kg front loader",
+      "name": "Bosch Series 6 9 kg",
+      "category": "washer",
+      "barcodes": [],
+      "price": {
+        "amount": 1299,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.bosch-home.com.au/",
+        "estimate": true
+      },
+      "repairCost": 280,
+      "repairEvents": 2,
+      "repairNote": "Pump or heater replacement, parts and labour.",
+      "energy": {
+        "annualKwh": 220,
+        "sourceUrl": "https://www.bosch-home.com.au/",
+        "note": "Default for a 9 kg front loader. Check the energy label on your unit."
+      },
+      "sources": [
+        "https://www.bosch-home.com.au/"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "fairphone-5",
+      "brand": "Fairphone",
+      "model": "FP5",
+      "name": "Fairphone 5",
+      "category": "phone",
+      "barcodes": [],
+      "price": {
+        "amount": 1149,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.fairphone.com/",
+        "estimate": true
+      },
+      "repairCost": 220,
+      "repairEvents": 1,
+      "repairNote": "Screen module swap. Part price only.",
+      "partsUrl": "https://shop.fairphone.com/en/spare-parts",
+      "manualUrl": "https://www.ifixit.com/Device/Fairphone_5",
+      "serviceNote": "All main modules are user-replaceable with one screwdriver.",
+      "ifixit": {
+        "wikiid": 535473,
+        "title": "Fairphone 5",
+        "url": "https://www.ifixit.com/Device/Fairphone_5",
+        "score": 10,
+        "guideCount": 11,
+        "toolCount": 1,
+        "fetchedAt": "2026-10-27T19:12:33.874Z",
+        "imageUrl": "https://guide-images.cdn.ifixit.com/igi/qelQgI6NJXkFUExZ.standard"
+      },
+      "sources": [
+        "https://www.ifixit.com/Device/Fairphone_5",
+        "https://www.fairphone.com/",
+        "https://shop.fairphone.com/en/spare-parts"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "fisher-paykel-8-5kg",
+      "brand": "Fisher & Paykel",
+      "model": "8.5 kg front loader",
+      "name": "Fisher & Paykel 8.5 kg",
+      "category": "washer",
+      "barcodes": [],
+      "price": {
+        "amount": 1099,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.fisherpaykel.com/au/laundry/washing-machines/",
+        "estimate": true
+      },
+      "repairCost": 270,
+      "repairEvents": 2,
+      "repairNote": "Pump or heater replacement, parts and labour.",
+      "energy": {
+        "annualKwh": 210,
+        "sourceUrl": "https://www.fisherpaykel.com/au/laundry/washing-machines/",
+        "note": "Default for an 8.5 kg front loader. Check the energy label on your unit."
+      },
+      "sources": [
+        "https://www.fisherpaykel.com/au/laundry/washing-machines/"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "framework-13",
+      "brand": "Framework",
+      "model": "Laptop 13 (AMD Ryzen 7040)",
+      "name": "Framework Laptop 13",
+      "category": "laptop",
+      "barcodes": [],
+      "price": {
+        "amount": 1699,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://frame.work/au/en/laptop13",
+        "estimate": true
+      },
+      "repairCost": 120,
+      "repairEvents": 1,
+      "repairNote": "Battery module. Part price only.",
+      "partsUrl": "https://frame.work/au/en/parts",
+      "manualUrl": "https://www.ifixit.com/Device/Framework_Laptop",
+      "serviceNote": "Every part is sold in the maker store, with guides.",
+      "ifixit": {
+        "wikiid": 458613,
+        "title": "Framework Laptop",
+        "url": "https://www.ifixit.com/Device/Framework_Laptop",
+        "score": 10,
+        "guideCount": 43,
+        "toolCount": 2,
+        "fetchedAt": "2026-10-27T19:12:40.040Z",
+        "imageUrl": "https://guide-images.cdn.ifixit.com/igi/MxxZKdRqARWcIRTP.standard"
+      },
+      "sources": [
+        "https://www.ifixit.com/Device/Framework_Laptop",
+        "https://frame.work/au/en/laptop13",
+        "https://frame.work/au/en/parts"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "framework-16",
+      "brand": "Framework",
+      "model": "Laptop 16 (AMD Ryzen 7040)",
+      "name": "Framework Laptop 16",
+      "category": "laptop",
+      "barcodes": [],
+      "price": {
+        "amount": 2299,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://frame.work/au/en/laptop16",
+        "estimate": true
+      },
+      "repairCost": 150,
+      "repairEvents": 1,
+      "repairNote": "Battery module. Part price only.",
+      "partsUrl": "https://frame.work/au/en/parts",
+      "manualUrl": "https://www.ifixit.com/Device/Framework_Laptop_16_%28AMD_Ryzen%E2%84%A2_7040_Series%29",
+      "serviceNote": "Every part is sold in the maker store, with guides.",
+      "ifixit": {
+        "wikiid": 510266,
+        "title": "Framework Laptop 16 (AMD Ryzen™ 7040 Series)",
+        "url": "https://www.ifixit.com/Device/Framework_Laptop_16_%28AMD_Ryzen%E2%84%A2_7040_Series%29",
+        "score": 10,
+        "guideCount": 65,
+        "toolCount": 6,
+        "fetchedAt": "2026-10-27T19:12:41.072Z",
+        "imageUrl": "https://guide-images.cdn.ifixit.com/igi/HYdDo2VTc23kplVp.standard"
+      },
+      "sources": [
+        "https://www.ifixit.com/Device/Framework_Laptop_16_%28AMD_Ryzen%E2%84%A2_7040_Series%29",
+        "https://frame.work/au/en/laptop16",
+        "https://frame.work/au/en/parts"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "pixel-8",
+      "brand": "Google",
+      "model": "GKWS6",
+      "name": "Google Pixel 8",
+      "category": "phone",
+      "barcodes": [],
+      "price": {
+        "amount": 1099,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://store.google.com/au/category/phones",
+        "estimate": true
+      },
+      "repairCost": 250,
+      "repairEvents": 1,
+      "repairNote": "Screen replacement at an independent shop.",
+      "partsUrl": "https://www.ifixit.com/Store/Android",
+      "manualUrl": "https://www.ifixit.com/Device/Google_Pixel_8",
+      "serviceNote": "Google sells parts through iFixit in some markets.",
+      "ifixit": {
+        "wikiid": 521907,
+        "title": "Google Pixel 8",
+        "url": "https://www.ifixit.com/Device/Google_Pixel_8",
+        "score": 6,
+        "guideCount": 21,
+        "toolCount": 7,
+        "fetchedAt": "2026-10-27T19:12:37.993Z",
+        "imageUrl": "https://guide-images.cdn.ifixit.com/igi/XUQskLGCCsvPE6JP.standard"
+      },
+      "sources": [
+        "https://www.ifixit.com/Device/Google_Pixel_8",
+        "https://store.google.com/au/category/phones",
+        "https://www.ifixit.com/Store/Android"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "iphone-13-pro",
+      "brand": "Apple",
+      "model": "A2640",
+      "name": "iPhone 13 Pro",
+      "category": "phone",
+      "barcodes": [],
+      "price": {
+        "amount": 1199,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.apple.com/au/iphone-13-pro/",
+        "estimate": true
+      },
+      "repairCost": 320,
+      "repairEvents": 1,
+      "repairNote": "Screen replacement at an independent shop.",
+      "partsUrl": "https://www.ifixit.com/Store/iPhone",
+      "manualUrl": "https://www.ifixit.com/Device/iPhone_13_Pro",
+      "ifixit": {
+        "wikiid": 458237,
+        "title": "iPhone 13 Pro",
+        "url": "https://www.ifixit.com/Device/iPhone_13_Pro",
+        "score": 6,
+        "guideCount": 14,
+        "toolCount": 10,
+        "fetchedAt": "2026-10-27T19:12:37.018Z",
+        "imageUrl": "https://guide-images.cdn.ifixit.com/igi/3Vl3h5GWMOvmKiln.standard"
+      },
+      "sources": [
+        "https://www.ifixit.com/Device/iPhone_13_Pro",
+        "https://www.apple.com/au/iphone-13-pro/",
+        "https://www.ifixit.com/Store/iPhone"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "iphone-14",
+      "brand": "Apple",
+      "model": "A2882",
+      "name": "iPhone 14",
+      "category": "phone",
+      "barcodes": [],
+      "price": {
+        "amount": 1099,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.apple.com/au/iphone/",
+        "estimate": true
+      },
+      "repairCost": 280,
+      "repairEvents": 1,
+      "repairNote": "Screen replacement at an independent shop.",
+      "partsUrl": "https://www.ifixit.com/Store/iPhone",
+      "manualUrl": "https://www.ifixit.com/Device/iPhone_14",
+      "ifixit": {
+        "wikiid": 480529,
+        "title": "iPhone 14",
+        "url": "https://www.ifixit.com/Device/iPhone_14",
+        "score": 4,
+        "guideCount": 14,
+        "toolCount": 8,
+        "fetchedAt": "2026-10-27T19:12:35.909Z",
+        "imageUrl": "https://guide-images.cdn.ifixit.com/igi/vHLAXd1OyVEBVZ5Q.standard"
+      },
+      "sources": [
+        "https://www.ifixit.com/Device/iPhone_14",
+        "https://www.apple.com/au/iphone/",
+        "https://www.ifixit.com/Store/iPhone"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "iphone-15",
+      "brand": "Apple",
+      "model": "A3090",
+      "name": "iPhone 15",
+      "category": "phone",
+      "barcodes": [],
+      "price": {
+        "amount": 1499,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.apple.com/au/iphone/",
+        "estimate": true
+      },
+      "repairCost": 300,
+      "repairEvents": 1,
+      "repairNote": "Screen replacement at an independent shop.",
+      "partsUrl": "https://www.ifixit.com/Store/iPhone",
+      "manualUrl": "https://www.ifixit.com/Device/iPhone_15",
+      "serviceNote": "Apple sells parts through its self-service repair store.",
+      "ifixit": {
+        "wikiid": 521168,
+        "title": "iPhone 15",
+        "url": "https://www.ifixit.com/Device/iPhone_15",
+        "score": 7,
+        "guideCount": 45,
+        "toolCount": 6,
+        "fetchedAt": "2026-10-27T19:12:34.850Z",
+        "imageUrl": "https://guide-images.cdn.ifixit.com/igi/AP3Ky1i5YOOSuoTp.standard"
+      },
+      "sources": [
+        "https://www.ifixit.com/Device/iPhone_15",
+        "https://www.apple.com/au/iphone/",
+        "https://www.ifixit.com/Store/iPhone"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lg-9kg-front-loader",
+      "brand": "LG",
+      "model": "9 kg front loader",
+      "name": "LG 9 kg front loader",
+      "category": "washer",
+      "barcodes": [],
+      "price": {
+        "amount": 949,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.lg.com/au/washer-dryers/",
+        "estimate": true
+      },
+      "repairCost": 240,
+      "repairEvents": 2,
+      "repairNote": "Pump or heater replacement, parts and labour.",
+      "energy": {
+        "annualKwh": 235,
+        "sourceUrl": "https://www.lg.com/au/washer-dryers/",
+        "note": "Default for a 9 kg front loader. Check the energy label on your unit."
+      },
+      "sources": [
+        "https://www.lg.com/au/washer-dryers/"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "macbook-air-m2",
+      "brand": "Apple",
+      "model": "M2, 13-inch, 2022",
+      "name": "MacBook Air M2",
+      "category": "laptop",
+      "barcodes": [],
+      "price": {
+        "amount": 1499,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.apple.com/au/macbook-air/",
+        "estimate": true
+      },
+      "repairCost": 250,
+      "repairEvents": 1,
+      "repairNote": "Battery service at an independent shop.",
+      "partsUrl": "https://www.ifixit.com/Store/Mac",
+      "manualUrl": "https://www.ifixit.com/Device/Macbook_Air_M2_2022",
+      "ifixit": {
+        "wikiid": 479210,
+        "title": "Macbook Air M2 2022",
+        "url": "https://www.ifixit.com/Device/Macbook_Air_M2_2022",
+        "score": 5,
+        "guideCount": 18,
+        "toolCount": 17,
+        "fetchedAt": "2026-10-27T19:12:42.055Z",
+        "imageUrl": "https://guide-images.cdn.ifixit.com/igi/ea4euPyxFSHFV55a.standard"
+      },
+      "sources": [
+        "https://www.ifixit.com/Device/Macbook_Air_M2_2022",
+        "https://www.apple.com/au/macbook-air/",
+        "https://www.ifixit.com/Store/Mac"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "macbook-pro-14-2021",
+      "brand": "Apple",
+      "model": "M1 Pro, 14-inch, 2021",
+      "name": "MacBook Pro 14 2021",
+      "category": "laptop",
+      "barcodes": [],
+      "price": {
+        "amount": 2499,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.apple.com/au/macbook-pro/",
+        "estimate": true
+      },
+      "repairCost": 350,
+      "repairEvents": 1,
+      "repairNote": "Battery service at an independent shop.",
+      "partsUrl": "https://www.ifixit.com/Store/Mac",
+      "manualUrl": "https://www.ifixit.com/Device/MacBook_Pro_14%22_2021",
+      "ifixit": {
+        "wikiid": 462716,
+        "title": "MacBook Pro 14\" 2021",
+        "url": "https://www.ifixit.com/Device/MacBook_Pro_14%22_2021",
+        "score": 5,
+        "guideCount": 16,
+        "toolCount": 8,
+        "fetchedAt": "2026-10-27T19:12:43.093Z",
+        "imageUrl": "https://guide-images.cdn.ifixit.com/igi/NJRLJkJSuJE1pWL2.standard"
+      },
+      "sources": [
+        "https://www.ifixit.com/Device/MacBook_Pro_14%22_2021",
+        "https://www.apple.com/au/macbook-pro/",
+        "https://www.ifixit.com/Store/Mac"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "macbook-pro-14-m3-pro",
+      "brand": "Apple",
+      "model": "M3 Pro, 14-inch, 2023",
+      "name": "MacBook Pro 14 M3 Pro",
+      "category": "laptop",
+      "barcodes": [],
+      "price": {
+        "amount": 3299,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.apple.com/au/macbook-pro/",
+        "estimate": true
+      },
+      "repairCost": 400,
+      "repairEvents": 1,
+      "repairNote": "Battery service at an independent shop.",
+      "partsUrl": "https://www.ifixit.com/Store/Mac",
+      "manualUrl": "https://www.ifixit.com/Device/MacBook_Pro_14%22_Late_2023_%28M3_Pro_and_M3_Max%29",
+      "ifixit": {
+        "wikiid": 531765,
+        "title": "MacBook Pro 14\" Late 2023 (M3 Pro and M3 Max)",
+        "url": "https://www.ifixit.com/Device/MacBook_Pro_14%22_Late_2023_%28M3_Pro_and_M3_Max%29",
+        "score": 4,
+        "guideCount": 25,
+        "toolCount": 11,
+        "fetchedAt": "2026-10-27T19:12:44.064Z",
+        "imageUrl": "https://guide-images.cdn.ifixit.com/igi/pMrRmFepbSEVBVm6.standard"
+      },
+      "sources": [
+        "https://www.ifixit.com/Device/MacBook_Pro_14%22_Late_2023_%28M3_Pro_and_M3_Max%29",
+        "https://www.apple.com/au/macbook-pro/",
+        "https://www.ifixit.com/Store/Mac"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "macbook-pro-16-m1-pro",
+      "brand": "Apple",
+      "model": "M1 Pro, 16-inch, 2021",
+      "name": "MacBook Pro 16 M1 Pro",
+      "category": "laptop",
+      "barcodes": [],
+      "price": {
+        "amount": 2999,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.apple.com/au/macbook-pro/",
+        "estimate": true
+      },
+      "repairCost": 420,
+      "repairEvents": 1,
+      "repairNote": "Battery service at an independent shop.",
+      "partsUrl": "https://www.ifixit.com/Store/Mac",
+      "manualUrl": "https://www.ifixit.com/Device/MacBook_Pro_16%22_2021",
+      "ifixit": {
+        "wikiid": 462717,
+        "title": "MacBook Pro 16\" 2021",
+        "url": "https://www.ifixit.com/Device/MacBook_Pro_16%22_2021",
+        "score": 4,
+        "guideCount": 17,
+        "toolCount": 9,
+        "fetchedAt": "2026-10-27T19:12:45.138Z",
+        "imageUrl": "https://guide-images.cdn.ifixit.com/igi/mZ2xTCfJBVcVj2WT.standard"
+      },
+      "sources": [
+        "https://www.ifixit.com/Device/MacBook_Pro_16%22_2021",
+        "https://www.apple.com/au/macbook-pro/",
+        "https://www.ifixit.com/Store/Mac"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "miele-w1-9kg",
+      "brand": "Miele",
+      "model": "W1, 9 kg front loader",
+      "name": "Miele W1 9 kg",
+      "category": "washer",
+      "barcodes": [],
+      "price": {
+        "amount": 2499,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.miele.com.au/",
+        "estimate": true
+      },
+      "repairCost": 380,
+      "repairEvents": 2,
+      "repairNote": "Pump or heater replacement, parts and labour.",
+      "energy": {
+        "annualKwh": 190,
+        "sourceUrl": "https://www.miele.com.au/",
+        "note": "Default for a 9 kg front loader. Check the energy label on your unit."
+      },
+      "sources": [
+        "https://www.miele.com.au/"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "samsung-9kg-front-loader",
+      "brand": "Samsung",
+      "model": "9 kg front loader",
+      "name": "Samsung 9 kg front loader",
+      "category": "washer",
+      "barcodes": [],
+      "price": {
+        "amount": 999,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.samsung.com/au/washers-and-dryers/",
+        "estimate": true
+      },
+      "repairCost": 260,
+      "repairEvents": 2,
+      "repairNote": "Pump or heater replacement, parts and labour.",
+      "energy": {
+        "annualKwh": 240,
+        "sourceUrl": "https://www.samsung.com/au/washers-and-dryers/",
+        "note": "Default for a 9 kg front loader. Check the energy label on your unit."
+      },
+      "sources": [
+        "https://www.samsung.com/au/washers-and-dryers/"
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "galaxy-s22",
+      "brand": "Samsung",
+      "model": "SM-S901B",
+      "name": "Samsung Galaxy S22",
+      "category": "phone",
+      "barcodes": [],
+      "price": {
+        "amount": 999,
+        "currency": "AUD",
+        "kind": "street",
+        "checkedOn": "2026-10-28",
+        "sourceUrl": "https://www.samsung.com/au/smartphones/galaxy-s/",
+        "estimate": true
+      },
+      "repairCost": 260,
+      "repairEvents": 1,
+      "repairNote": "Screen replacement at an independent shop.",
+      "partsUrl": "https://www.ifixit.com/Store/Android",
+      "manualUrl": "https://www.ifixit.com/Device/Samsung_Galaxy_S22",
+      "ifixit": {
+        "wikiid": 476023,
+        "title": "Samsung Galaxy S22",
+        "url": "https://www.ifixit.com/Device/Samsung_Galaxy_S22",
+        "score": 3,
+        "guideCount": 16,
+        "toolCount": 4,
+        "fetchedAt": "2026-10-27T19:12:39.068Z",
+        "imageUrl": "https://guide-images.cdn.ifixit.com/igi/6qtlTASMCi6dPHY6.standard"
+      },
+      "sources": [
+        "https://www.ifixit.com/Device/Samsung_Galaxy_S22",
+        "https://www.samsung.com/au/smartphones/galaxy-s/",
+        "https://www.ifixit.com/Store/Android"
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}

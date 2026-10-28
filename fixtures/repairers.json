@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62 (fixture)",
+  "elements": [
+    {
+      "type": "node",
+      "id": 1001,
+      "lat": -33.7815,
+      "lon": 151.1812,
+      "tags": {
+        "name": "Chatswood Phone Repair",
+        "shop": "repair",
+        "repair": "yes",
+        "phone": "+61 2 9000 1001",
+        "addr:housenumber": "12",
+        "addr:street": "Victoria Avenue",
+        "addr:suburb": "Chatswood"
+      }
+    },
+    {
+      "type": "way",
+      "id": 2002,
+      "center": { "lat": -33.7899, "lon": 151.1855 },
+      "tags": {
+        "name": "North Shore Repair Cafe",
+        "craft": "repair",
+        "addr:street": "Pacific Highway",
+        "addr:suburb": "Chatswood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3003,
+      "lat": -33.7701,
+      "lon": 151.1901,
+      "tags": {
+        "name": "Willoughby Appliance Service",
+        "shop": "appliance",
+        "repair": "yes",
+        "addr:street": "Mowbray Road",
+        "addr:suburb": "Willoughby"
+      }
+    }
+  ]
+}

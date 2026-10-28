@@ -5,12 +5,13 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "longevity": "src/index.ts"
+    "longevity": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test test/*.test.ts",
+    "start": "tsx src/index.ts",
     "demo": "tsx src/index.ts demo",
     "serve": "node scripts/serve.mjs web 8080"
   },

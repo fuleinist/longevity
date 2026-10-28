@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>longevity - repairability scanner</title>
+<meta name="description" content="Scan a barcode or search a model. See the repairability score, spare parts, local repairers and the life cost.">
+<meta name="theme-color" content="#143d2b">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="./index.html">
+      <img src="./assets/logo.svg" alt="" width="36" height="36" onerror="this.style.display='none'">
+      <span>longevity</span>
+    </a>
+    <p class="tagline">Choose products that last.</p>
+    <button id="install-hint" class="ghost" hidden>Install</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>Repairability, before you buy.</h1>
+    <p class="lede">Scan a barcode or search a model. See the repair score, the spare parts, the repairers near you and the cost per year of use.</p>
+
+    <form id="search-form" class="search" autocomplete="off">
+      <label class="sr-only" for="search-input">Search by brand, model or category</label>
+      <input id="search-input" name="q" type="search" placeholder="iPhone 15, Framework, washing machine..." />
+      <button type="submit">Search</button>
+      <button type="button" id="scan-button" class="secondary">Scan</button>
+    </form>
+
+    <div class="chips" role="group" aria-label="Category filter">
+      <button class="chip is-active" data-category="">All</button>
+      <button class="chip" data-category="phone">Phones</button>
+      <button class="chip" data-category="laptop">Laptops</button>
+      <button class="chip" data-category="washer">Washing machines</button>
+    </div>
+
+    <p id="scan-status" class="status" hidden></p>
+  </section>
+
+  <section class="layout">
+    <aside class="results" aria-label="Products">
+      <h2 class="section-title">Products <span id="result-count" class="count"></span></h2>
+      <ul id="result-list" class="result-list"></ul>
+      <p id="empty-state" class="empty" hidden>No product matches. Try a brand, a model or a category.</p>
+    </aside>
+
+    <section id="detail" class="detail" aria-live="polite">
+      <div class="placeholder">
+        <h2>Pick a product</h2>
+        <p>Choose a product on the left. The score, the life cost and the repair verdict appear here.</p>
+      </div>
+    </section>
+  </section>
+
+  <section id="compare" class="compare" hidden>
+    <h2 class="section-title">Compare <button id="clear-compare" class="ghost small">Clear</button></h2>
+    <div class="table-wrap"><table id="compare-table"></table></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Public data from iFixit and OpenStreetMap. Prices are estimates. Check the seller before you buy.</p>
+    <p class="small">The score compares repair, support and parts. It is not a prediction of product life. No account, no tracking.</p>
+  </div>
+</footer>
+
+<div id="toast" class="toast" role="status" hidden></div>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>

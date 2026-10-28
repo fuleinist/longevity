@@ -1,0 +1,19 @@
+{
+  "name": "longevity - repairability scanner",
+  "short_name": "longevity",
+  "description": "Scan a barcode or search a model. See the repairability score, spare parts, local repairers and the life cost.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f1e9",
+  "theme_color": "#143d2b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

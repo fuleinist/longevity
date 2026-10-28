@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512" role="img" aria-label="longevity logo">
+  <title>longevity</title>
+  <rect width="64" height="64" rx="8" fill="#0e2c1f"/>
+  <!-- 8-bit wrench over a leaf: repair that keeps things alive -->
+  <g fill="#7ec98f">
+    <rect x="10" y="10" width="4" height="4"/>
+    <rect x="18" y="10" width="4" height="4"/>
+    <rect x="26" y="10" width="4" height="4"/>
+    <rect x="34" y="10" width="4" height="4"/>
+    <rect x="42" y="10" width="4" height="4"/>
+    <rect x="50" y="10" width="4" height="4"/>
+    <rect x="10" y="18" width="4" height="4"/>
+    <rect x="50" y="18" width="4" height="4"/>
+  </g>
+  <!-- leaf body, chunky pixels -->
+  <g fill="#4f9e63">
+    <rect x="26" y="18" width="12" height="4"/>
+    <rect x="22" y="22" width="20" height="4"/>
+    <rect x="18" y="26" width="24" height="4"/>
+    <rect x="18" y="30" width="24" height="4"/>
+    <rect x="22" y="34" width="20" height="4"/>
+    <rect x="26" y="38" width="12" height="4"/>
+  </g>
+  <!-- leaf vein and stem -->
+  <g fill="#a9e3b6">
+    <rect x="30" y="22" width="4" height="4"/>
+    <rect x="30" y="26" width="4" height="4"/>
+    <rect x="30" y="30" width="4" height="4"/>
+    <rect x="34" y="30" width="4" height="4"/>
+    <rect x="26" y="30" width="4" height="4"/>
+  </g>
+  <!-- wrench handle -->
+  <g fill="#e8e3d6">
+    <rect x="30" y="40" width="4" height="4"/>
+    <rect x="30" y="44" width="4" height="4"/>
+    <rect x="30" y="48" width="4" height="4"/>
+    <rect x="26" y="52" width="12" height="4"/>
+  </g>
+  <!-- wrench head -->
+  <g fill="#e8e3d6">
+    <rect x="24" y="44" width="4" height="8"/>
+    <rect x="36" y="44" width="4" height="8"/>
+    <rect x="24" y="44" width="16" height="4"/>
+  </g>
+  <!-- gear notch, keeps the pixel rhythm -->
+  <g fill="#143d2b">
+    <rect x="30" y="48" width="4" height="4"/>
+  </g>
+</svg>

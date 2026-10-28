@@ -65,7 +65,7 @@ test('the self-audit replaces a missing iFixit score', () => {
 });
 
 test('the self-audit is used when iFixit is absent', () => {
-  const audit = buildAudit({ access: true, fasteners: true }, '2026-10-28');
+  const audit = buildAudit({ 'drum-access': true, 'standard-fasteners': true }, '2026-10-28');
   assert.equal(auditScore(audit), 30);
   assert.equal(repairPart({ audit }), 30);
 });
@@ -102,16 +102,16 @@ test('an empty audit has no score', () => {
 
 test('unanswered audit questions count as no', () => {
   const partial: Audit = {
-    answers: [{ id: 'access', answer: true }],
+    answers: [{ id: 'drum-access', answer: true }],
     checkedOn: '2026-10-28',
   };
   assert.equal(auditScore(partial), 15);
   assert.equal(unansweredQuestions(partial).length, 7);
-  assert.deepEqual(unansweredQuestions(partial).includes('access'), false);
+  assert.deepEqual(unansweredQuestions(partial).includes('drum-access'), false);
 });
 
 test('buildAudit drops unknown question ids', () => {
-  const audit = buildAudit({ access: true, toaster: true }, '2026-10-28');
+  const audit = buildAudit({ 'drum-access': true, toaster: true }, '2026-10-28');
   assert.equal(audit.answers.length, 1);
-  assert.equal(audit.answers[0]?.id, 'access');
+  assert.equal(audit.answers[0]?.id, 'drum-access');
 });

@@ -13,42 +13,42 @@ export interface AuditQuestion {
  */
 export const AUDIT_QUESTIONS: readonly AuditQuestion[] = [
   {
-    id: 'access',
+    id: 'drum-access',
     text: 'The drum or main module is accessible without moving the machine.',
     weight: 15,
   },
   {
-    id: 'fasteners',
+    id: 'standard-fasteners',
     text: 'Fasteners are standard screws. No glue and no rivets.',
     weight: 15,
   },
   {
-    id: 'bearings',
+    id: 'bearings-separate',
     text: 'Bearings are sold as a separate part.',
     weight: 15,
   },
   {
-    id: 'board',
+    id: 'board-separate',
     text: 'The control board is sold as a separate part.',
     weight: 15,
   },
   {
-    id: 'seals',
+    id: 'seal-pump-spares',
     text: 'The door seal and the pump are sold as spares.',
     weight: 15,
   },
   {
-    id: 'errors',
+    id: 'error-codes',
     text: 'Error codes are readable without a service tool.',
     weight: 10,
   },
   {
-    id: 'manual',
+    id: 'manual-public',
     text: 'A repair manual or a parts diagram is public.',
     weight: 10,
   },
   {
-    id: 'spares',
+    id: 'spares-5y',
     text: 'The maker promises spare parts for 5 years or more.',
     weight: 5,
   },

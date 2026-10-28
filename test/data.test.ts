@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readCatalogFile } from '../src/catalog.js';
+import { inspectBarcode } from '../src/barcode.js';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const dataPath = join(here, '..', 'data', 'products.json');
@@ -57,5 +58,15 @@ test('prices are positive and dated', async () => {
     assert.ok(product.price.amount > 0, `${product.id} has no price`);
     assert.match(product.price.checkedOn, /^\d{4}-\d{2}-\d{2}$/);
     assert.equal(product.price.currency, 'AUD');
+  }
+});
+
+test('every catalog barcode passes its check digit', async () => {
+  const catalog = await readCatalogFile(dataPath);
+  for (const product of catalog.products) {
+    for (const barcode of product.barcodes) {
+      const result = inspectBarcode(barcode);
+      assert.ok(result.ok, `${product.id} has a bad barcode ${barcode}`);
+    }
   }
 });

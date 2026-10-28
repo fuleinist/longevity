@@ -46,7 +46,7 @@ test('indexes products by id and barcode', async () => {
   const catalog = parseCatalog(await fixture());
   const index = indexProducts(catalog.products);
   assert.equal(index.byId.get('fairphone-5')?.name, 'Fairphone 5');
-  assert.equal(index.byBarcode.get('8712412001234')?.id, 'fairphone-5');
+  assert.equal(index.byBarcode.get('8712412001231')?.id, 'fairphone-5');
   assert.equal(index.byBarcode.get('0000000000000'), undefined);
 });
 

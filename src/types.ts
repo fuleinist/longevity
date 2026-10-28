@@ -110,7 +110,7 @@ export interface CatalogFile {
 }
 
 export interface ScorePart {
-  id: 'repair' | 'support' | 'parts' | 'running';
+  id: 'repair' | 'support' | 'parts';
   label: string;
   weight: number;
   /** 0 to 100. Null when the data is missing. */
@@ -145,6 +145,10 @@ export interface LifeCostResult {
   purchase: number;
   repairs: number;
   energy: number;
+  /** False when the call had no energy value and the term is zero. */
+  energyKnown: boolean;
+  /** The score used for the life-years factor. Null means no score. */
+  repairScore10: number | null;
 }
 
 export type Verdict = 'repair' | 'consider' | 'replace';

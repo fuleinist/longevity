@@ -25,7 +25,8 @@ Three categories in the first release: phones, laptops and washing machines.
 ### Must have
 
 - A curated product index with sourced data. Each entry records its sources.
-- A Longevity Score from 0 to 100. The score has four parts with fixed weights.
+- A Longevity Score from 0 to 100. The score has three parts with fixed
+  weights.
 - A life-cost estimate in AUD per year of use.
 - A repair-or-replace verdict with the numbers behind it.
 - Search by brand, model or category.
